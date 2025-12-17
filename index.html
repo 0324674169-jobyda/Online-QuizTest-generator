@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>📝 Online Quiz Generator</h1>
+            <p class="subtitle">Create, Take, and Share Quizzes</p>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="create">Create Quiz</button>
+            <button class="tab-btn" data-tab="take">Take Quiz</button>
+            <button class="tab-btn" data-tab="results">Results</button>
+        </div>
+
+        <!-- Create Quiz Section -->
+        <section id="create" class="tab-content active">
+            <div class="quiz-builder">
+                <div class="quiz-info">
+                    <input type="text" id="quizTitle" placeholder="Enter Quiz Title" class="input-field">
+                    <textarea id="quizDescription" placeholder="Enter Quiz Description (optional)" class="input-field" rows="2"></textarea>
+                </div>
+
+                <div class="questions-container" id="questionsContainer">
+                    <!-- Questions will be added here dynamically -->
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn btn-secondary" id="addQuestionBtn">+ Add Question</button>
+                    <button class="btn btn-primary" id="saveQuizBtn">Save Quiz</button>
+                    <button class="btn btn-success" id="publishQuizBtn">Publish & Take Quiz</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Take Quiz Section -->
+        <section id="take" class="tab-content">
+            <div class="quiz-taker">
+                <div id="quizHeader" class="quiz-header">
+                    <h2 id="displayQuizTitle">Select a quiz to start</h2>
+                    <p id="displayQuizDescription"></p>
+                </div>
+
+                <div class="saved-quizzes">
+                    <h3>Available Quizzes:</h3>
+                    <div id="quizzesList" class="quizzes-list">
+                        <!-- Saved quizzes will appear here -->
+                    </div>
+                </div>
+
+                <div id="quizQuestions" class="quiz-questions">
+                    <!-- Quiz questions will appear here -->
+                </div>
+
+                <div class="quiz-actions">
+                    <button class="btn btn-primary" id="submitQuizBtn" style="display: none;">Submit Quiz</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results" class="tab-content">
+            <div class="results-container">
+                <div id="resultsDisplay" class="results-display">
+                    <div class="empty-state">
+                        <p>📊 No results yet. Take a quiz to see your results!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

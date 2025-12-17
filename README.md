@@ -50,16 +50,9 @@ True / False questions
 
 ✅ Responsive and modern UI design
 
-🧩 Project Structure
-📁 Online-Quiz-Generator
-│
-├── index.html        # Main HTML structure
-├── styles.css        # UI styling and responsiveness
-├── script.js         # Core logic and functionality
-├── dummy-data.json   # Sample quiz data
-└── README.md         # Project documentation
 
-⚙️ How the System Works
+
+# How the System Works
 
 Create Quiz
 

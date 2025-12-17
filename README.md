@@ -1,6 +1,7 @@
 # Online-QuizTest-generator
 A Dynamic Web-Based Quiz Creation and Evaluation System
 
+![Quiz Application Screenshot](images/Screenshot_1.png)
 
 # Project Overview
 The Online Quiz Generator is a dynamic, user-friendly web application that allows users to create, publish, take, and evaluate quizzes directly in the browser. The project is designed using HTML, CSS, and Vanilla JavaScript, focusing on interactivity, clean UI, and client-side data management.
@@ -50,7 +51,13 @@ True / False questions
 
 ✅ Responsive and modern UI design
 
+## Screenshots
 
+### Quiz Creation Interface
+![Create Quiz](images/Screenshot_2.png)
+
+### Quiz Taking and Results
+![Take Quiz and Results](images/Screenshot_3.png)
 
 # How the System Works
 

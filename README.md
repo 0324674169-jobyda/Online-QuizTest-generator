@@ -16,14 +16,15 @@ To implement automatic scoring and answer validation
 
 To demonstrate real-world use of JavaScript logic and browser storage
 
-🛠️ Technologies Used
-Technology	Purpose
-HTML5	Page structure and layout
-CSS3	Styling, animations, and responsive design
-JavaScript (ES6)	Application logic and interactivity
-LocalStorage	Persistent quiz data storage
-JSON	Quiz data structure
-✨ Key Features
+| Technology           | Purpose                                    |
+| -------------------- | ------------------------------------------ |
+| **HTML5**            | Page structure and layout                  |
+| **CSS3**             | Styling, animations, and responsive design |
+| **JavaScript (ES6)** | Application logic and interactivity        |
+| **LocalStorage**     | Persistent quiz data storage               |
+| **JSON**             | Quiz data structure                        |
+
+ Key Features
 
 ✅ Create quizzes with:
 
@@ -83,3 +84,14 @@ Score calculated automatically
 Percentage and performance message displayed
 
 Answer review section highlights correct & incorrect responses
+Future Enhancements
+
+User authentication system
+
+Backend database integration
+
+Timer-based quizzes
+
+Admin dashboard
+
+Question randomization
